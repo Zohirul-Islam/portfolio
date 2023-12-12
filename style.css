@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kanit', sans-serif; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(39, 39, 68, 0.901);
+    color: white;
+    padding: 2% 10%;
+    box-shadow: 8px 3px 13px rgb(76, 60, 101);
+
+}
+.logo{
+    font-size: 30px;
+}
+.nav_link ul{
+list-style: none;
+display: flex;
+column-gap: 50px;
+}
+.nav_link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav_link ul li a:hover{
+    color: brown;
+}
